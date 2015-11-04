@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = RadiantColorControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            CLASS = RadiantColorPicker; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_pickerView" = NSView; "_radiantColorControl" = RadiantColorControl; }; 
+            SUPERCLASS = NSColorPicker; 
+        }
+    ); 
+    IBVersion = 1; 
+}
